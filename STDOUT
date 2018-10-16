@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="3" time="0.135888">
+<testcase classname="pet store" name="find a pet by status" time="0.115636">
+<skipped><![CDATA[Given user is using the baseURI.............................................undefined
+When user make GET call on the pet status endpoint for available pets "/pet/findByStatus?status=available".undefined
+Then user need to get a response code: 200..................................undefined
+And The user need to get the list of available pet..........................undefined
+]]></skipped>
+</testcase>
+<testcase classname="pet store" name="Create a new pet Using Post Method" time="0.009861">
+<skipped><![CDATA[Given user is using the baseURI.............................................undefined
+When user make POST call on the pet status endpoint for available pets "/pet".undefined
+Then user need to get a response code: 200..................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="pet store" name="Update a pet using Put method" time="0.010391">
+<skipped><![CDATA[Given user is using the baseURI.............................................undefined
+When user make PUT call on the pet status endpoint for available pets "/pet".undefined
+Then user need to get a response code: 200..................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
