@@ -1,0 +1,358 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13891618499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.beforemethod()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add customer",
+        "description": "",
+        "id": "add-customer;add-customer;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3359354669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18577467834,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in guru login page",
+            "match": {
+              "location": "GuruLogin.the_user_is_in_guru_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9151410726,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login with the valid credentials",
+            "match": {
+              "location": "LoginSteps.the_user_login_with_the_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "mngr154050"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "zamynEs"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8707300425,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "navigates to add customer page",
+            "match": {
+              "location": "ManagerHomeSteps.navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16079519907,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user enters customer details \"usera\",\"male\",\"11/11/2000\",\"testuser1\",\"chennai\",\"TN\",\"603103\",\"9842512345\",\"testuser1@gmail.com\" and \"user1@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usera",
+                  "offset": 34
+                },
+                {
+                  "val": "male",
+                  "offset": 42
+                },
+                {
+                  "val": "11/11/2000",
+                  "offset": 49
+                },
+                {
+                  "val": "testuser1",
+                  "offset": 62
+                },
+                {
+                  "val": "chennai",
+                  "offset": 74
+                },
+                {
+                  "val": "TN",
+                  "offset": 84
+                },
+                {
+                  "val": "603103",
+                  "offset": 89
+                },
+                {
+                  "val": "9842512345",
+                  "offset": 98
+                },
+                {
+                  "val": "testuser1@gmail.com",
+                  "offset": 111
+                },
+                {
+                  "val": "user1@123",
+                  "offset": 137
+                }
+              ],
+              "location": "AddCustomerSteps.the_user_enters_customer_details_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 957560239,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user clicks reset button",
+            "match": {
+              "location": "GuruLogin.the_user_clicks_reset_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463819042,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should be in add customer page",
+            "match": {
+              "location": "AddCustomerSteps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6387818553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.beforemethod()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Add customer",
+        "description": "",
+        "id": "add-customer;add-customer;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000103373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24841701946,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in guru login page",
+            "match": {
+              "location": "GuruLogin.the_user_is_in_guru_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7725804199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login with the valid credentials",
+            "match": {
+              "location": "LoginSteps.the_user_login_with_the_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "mngr154050"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "zamynEs"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4758689451,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "navigates to add customer page",
+            "match": {
+              "location": "ManagerHomeSteps.navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5431816012,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user enters customer details \"userb\",\"male\",\"11/12/2001\",\"user2\",\"chennai\",\"tn\",\"600119\",\"123123987\",\"user2@gmail.com\" and \"user2@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userb",
+                  "offset": 34
+                },
+                {
+                  "val": "male",
+                  "offset": 42
+                },
+                {
+                  "val": "11/12/2001",
+                  "offset": 49
+                },
+                {
+                  "val": "user2",
+                  "offset": 62
+                },
+                {
+                  "val": "chennai",
+                  "offset": 70
+                },
+                {
+                  "val": "tn",
+                  "offset": 80
+                },
+                {
+                  "val": "600119",
+                  "offset": 85
+                },
+                {
+                  "val": "123123987",
+                  "offset": 94
+                },
+                {
+                  "val": "user2@gmail.com",
+                  "offset": 106
+                },
+                {
+                  "val": "user2@123",
+                  "offset": 128
+                }
+              ],
+              "location": "AddCustomerSteps.the_user_enters_customer_details_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298475051,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user clicks reset button",
+            "match": {
+              "location": "GuruLogin.the_user_clicks_reset_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201666595,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should be in add customer page",
+            "match": {
+              "location": "AddCustomerSteps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Add customer",
+    "description": "",
+    "id": "add-customer",
+    "keyword": "Feature",
+    "uri": "src/resources/java/mypack/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
