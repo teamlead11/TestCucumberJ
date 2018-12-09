@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
 
 public class GoogleSearch {
 	static WebDriver driver;
@@ -42,5 +43,9 @@ public class GoogleSearch {
 		String locator = "//a[@aria-label='Page $']";
 		locator = locator.replace("$", pageNum);
 		driver.findElement(By.xpath(locator)).click();
+		
+//		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver){
+//			
+//		}
 	}
 }

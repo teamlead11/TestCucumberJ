@@ -20,11 +20,13 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Documents\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("http://demo.guru99.com/v4/");
 	}
 
-	@After
+	@After()
 	// after each scenario
 	public void aftermethod() {
+		System.out.println("after method");
 		driver.close();
 		driver.quit();
 

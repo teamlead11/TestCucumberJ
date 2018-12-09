@@ -6,8 +6,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features = "src/resources/java/mypack/AddCustomer.feature", monochrome = true, dryRun = false, strict = true, glue = {
-		"mypack" }, plugin = { "json:src/resources/java/cucumbReport.json" })
+@CucumberOptions(features = "src/resources/java/mypack/EditCustomer.feature", dryRun = false, glue = {
+		"mypack" }, plugin = { "json:src/resources/java/cucumberReportNew.json" })
 
 public class NewTestRunner {
 

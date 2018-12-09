@@ -1,0 +1,156 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16893714367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.beforemethod()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "edit customer phone number",
+        "description": "",
+        "id": "edit-customer;edit-customer-phone-number",
+        "after": [
+          {
+            "result": {
+              "duration": 2941223353,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2803393950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user logins to guru home page",
+            "match": {
+              "location": "HomePageSteps.the_user_logins_to_guru_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "mngr161823"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "yzavunY"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}\n  (Session info: chrome\u003d71.0.3578.80)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds: null\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027HP-PC\u0027, ip: \u0027192.168.1.44\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50090}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}\nSession ID: 1b5c1c047f67e0ad4b25fd13a3feed64\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Edit Customer\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat mypack.ManagerHomePageSteps.the_user_navigates_to_edit_customer_page(ManagerHomePageSteps.java:12)\r\n\tat ✽.The user navigates to edit customer page(src/resources/java/mypack/EditCustomer.feature:10)\r\n",
+              "duration": 109178500,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "The user navigates to edit customer page",
+            "match": {
+              "location": "ManagerHomePageSteps.the_user_navigates_to_edit_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "The user enters the customer ID",
+            "match": {
+              "location": "EditCustomerSteps.the_user_enters_the_customer_ID(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "custID",
+                  "27996"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The user modify the phone number",
+            "match": {
+              "location": "EditCustomerSteps.the_user_modify_the_phone_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PhoneNumber",
+                  "1234567891"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "The customer should see the sucess message \"edited successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edited successfully",
+                  "offset": 44
+                }
+              ],
+              "location": "CustomerUpdatePage.the_customer_should_see_the_sucess_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Edit customer",
+    "description": "",
+    "id": "edit-customer",
+    "keyword": "Feature",
+    "uri": "src/resources/java/mypack/EditCustomer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
